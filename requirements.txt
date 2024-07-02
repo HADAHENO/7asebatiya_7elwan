@@ -1,10 +1,5 @@
-_installation:
-(1)! apt-get update && apt-get install -y libsndfile1 ffmpeg.
-(2)! pip -q install nemo_toolkit['asr'] Cython packaging.
-(3)install PyTorch with CUDA.
-(4) pip install torchaudio.
-(5)pip install pandas.
-(6)pip install torchaudio.
-(7)pip install ruamel.yaml.
-(8)pip install pytorch-lightning.
-(9)pip install -q pyspellchecker.
+apt-get update && apt-get install -y libsndfile1 ffmpeg
+pip -q install nemo_toolkit['asr'] Cython packaging
+
+pip install pandas
+pip install torch
