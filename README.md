@@ -1,13 +1,15 @@
 # QuartzNet-based ASR System for Arabic Speech Recognition
 
 ## Table of Contents
-1. [📘 Introduction](#introduction)
-2. [🏗️ System Architecture](#system-architecture)
-3. [🧠 Methodology](#methodology)
-4. [🔧 Technical Details](#technical-details)
-5. [📊 Results](#results)
-6. [🔁 Reproducibility](#reproducibility)
-7. [🚀 Performance Assessment](#performance-assessment)
+1. [📘 Introduction](##introduction)
+2. [🏗️ System Architecture](##system-architecture)
+3. [🧠 Methodology](##methodology)
+4. [🔧 Technical Details](##technical-details)
+5. [📊 Results](##results)
+6. [🔁 Reproducibility](##reproducibility)
+7. [🚀 Performance Assessment](##performance-assessment)
+
+### ✨ Check out "inference.py" to use our best model checkpoint for inference. Have fun experimenting with our model! 🚀
 
 ## Introduction 📘
 
@@ -170,8 +172,6 @@ To reproduce our results:
 5. Use the provided Python script from training_notebook.ipynb to train the model. Please make sure you have the necessary computational resources (GPU recommended).
 
 6. Adjust hyperparameters as needed for your specific use case.
-
-7. ✨ You can also check out inference.py to use our best model checkpoint for inference. Have fun experimenting with our model! 🚀
 
 ## Performance Assessment 🚀
 
