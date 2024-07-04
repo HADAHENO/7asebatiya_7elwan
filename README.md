@@ -116,6 +116,34 @@ To reproduce our results:
    - pip install matplotlib
 
 3. Prepare your data and update the manifest file paths in the configuration.
+   - To create the manifest file required for training the ASR model, you can use the following Python code. This code assumes you have prepared a CSV file with the following structure:
+     | audio                           | transcript                    |
+   |---------------------------------|-------------------------------|
+   | path/to/audio_folder/file1.wav  | Transcript of the first audio |
+   | path/to/audio_folder/file2.wav  | Transcript of the second audio|
+    - Use the following Python script to generate the manifest file:
+      '''python
+      # Function to build a manifest
+      def build_manifest(csv_path, manifest_path, wav_dir):
+          
+          df = pr.read_csv(csv_path)
+      
+          with open(manifest_path, 'w', encoding='utf-8') as fout:
+              for index, row in df.iterrows():
+                  audio_path = row['audio']
+                  transcript = row['transcript']
+      
+                  duration = librosa.core.get_duration(filename=audio_path)
+      
+                  # Write the metadata to the manifest
+                  metadata = {
+                      "audio_filepath": audio_path,
+                      "duration": duration,
+                      "text": transcript
+                  }
+                  json.dump(metadata, fout)
+                  fout.write('\n')
+         '''
 
 4. Use the provided Python script from training_notebook.ipynb to train the model. Please make sure you have the necessary computational resources (GPU recommended).
 
