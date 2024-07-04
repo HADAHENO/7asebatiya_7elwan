@@ -19,7 +19,7 @@
 
 This project implements an Automatic Speech Recognition (ASR) system for Arabic using the QuartzNet architecture. QuartzNet is an end-to-end neural acoustic model that achieves near state-of-the-art accuracy while using fewer parameters than competing models.
 
-The QuartzNet architecture, as described in the original paper, is composed of multiple blocks with residual connections. Each block consists of one or more modules with 1D time-channel separable convolutional layers, batch normalization, and ReLU layers. The model is trained using Connectionist Temporal Classification (CTC) loss.
+The QuartzNet architecture, as described in the original paper: [QuartzNet: Deep Automatic Speech Recognition with 1D Time-Channel Separable Convolutions](https://arxiv.org/abs/1910.10261), is composed of multiple blocks with residual connections. Each block consists of one or more modules with 1D time-channel separable convolutional layers, batch normalization, and ReLU layers. The model is trained using Connectionist Temporal Classification (CTC) loss.
 
 ## System Architecture 🏗️
 
