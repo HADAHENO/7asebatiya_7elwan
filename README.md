@@ -80,7 +80,7 @@ The model uses 256 to 512 filters in different layers, with kernel sizes ranging
 
 ## Results 📊
 
-We trained the model for various numbers of epochs (20, 40, 60, 80, 100, 120) and plotted the results:
+**We trained the model for various numbers of epochs (20, 40, 60, 80, 100, 120) and plotted the results:**
 
 <table>
   <tr>
