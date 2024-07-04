@@ -107,13 +107,19 @@ To reproduce our results:
 
 1. Install the required dependencies:
 
-pip install nemo_toolkit['asr'] Cython packaging
+   - apt-get update && apt-get install -y libsndfile1 ffmpeg
+   - pip -q install nemo_toolkit['asr'] Cython packaging
+   - pip install torch
+   - pip install pytorch-lightning
+   - pip install omegaconf
+   - pip install pandas
+   - pip install matplotlib
 
-2. Prepare your data and update the manifest file paths in the configuration.
+3. Prepare your data and update the manifest file paths in the configuration.
 
-3. Use the provided Python script to train the model. Please make sure you have the necessary computational resources (GPU recommended).
+4. Use the provided Python script from training_notebook.ipynb to train the model. Please make sure you have the necessary computational resources (GPU recommended).
 
-4. Adjust hyperparameters as needed for your specific use case.
+5. Adjust hyperparameters as needed for your specific use case.
 
 ## Performance Assessment
 
@@ -124,4 +130,4 @@ To assess the performance of the model:
 3. Evaluate the model's inference speed and resource usage.
 4. Test the model on various Arabic dialects and accents to assess its generalization capabilities.
 
-For a more comprehensive evaluation, consider using additional metrics such as Character Error Rate (CER) and Real-Time Factor (RTF).
+For a more comprehensive evaluation, consider using additional metrics such as Character Error Rate (CER).
