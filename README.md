@@ -138,10 +138,10 @@ To reproduce our results:
 3. Prepare your data and update the manifest file paths in the configuration.
    - To create the manifest file required for training the ASR model, you can use the following Python code. This code assumes you have prepared a CSV file with the following structure:
      
-   | audio                           | transcript                    |
-   |---------------------------------|-------------------------------|
-   | path/to/audio_folder/file1.wav  | Transcript of the first audio |
-   | path/to/audio_folder/file2.wav  | Transcript of the second audio|
+      | audio                           | transcript                    |
+      |---------------------------------|-------------------------------|
+      | path/to/audio_folder/file1.wav  | Transcript of the first audio |
+      | path/to/audio_folder/file2.wav  | Transcript of the second audio|
    
     - Use the following Python script to generate the manifest file:
       ```python
@@ -170,6 +170,8 @@ To reproduce our results:
 5. Use the provided Python script from training_notebook.ipynb to train the model. Please make sure you have the necessary computational resources (GPU recommended).
 
 6. Adjust hyperparameters as needed for your specific use case.
+
+7. ✨ You can also check out inference.py to use our best model checkpoint for inference. Have fun experimenting with our model! 🚀
 
 ## Performance Assessment 🚀
 
