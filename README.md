@@ -1,7 +1,7 @@
 # QuartzNet-based ASR System for Egyptian-Arabic Speech Recognition
 
 
-### ✨ Check out "inference.py" to use our best model checkpoint for inference. Have fun experimenting with our model! 🚀
+### ✨ Check out [inference.py](./inference.py) to use our best model checkpoint for inference. Have fun experimenting with our model! 🚀
 
 
 ## Table of Contents
