@@ -9,13 +9,13 @@
 6. [🔁 Reproducibility](#reproducibility)
 7. [🚀 Performance Assessment](#performance-assessment)
 
-## Introduction
+## Introduction 📘
 
 This project implements an Automatic Speech Recognition (ASR) system for Arabic using the QuartzNet architecture. QuartzNet is an end-to-end neural acoustic model that achieves near state-of-the-art accuracy while using fewer parameters than competing models.
 
 The QuartzNet architecture, as described in the original paper, is composed of multiple blocks with residual connections. Each block consists of one or more modules with 1D time-channel separable convolutional layers, batch normalization, and ReLU layers. The model is trained using Connectionist Temporal Classification (CTC) loss.
 
-## System Architecture
+## System Architecture 🏗️
 
 Our implementation uses the QuartzNet15x5 configuration, which consists of:
 
@@ -31,7 +31,7 @@ Each QuartzNet block contains:
 
 The model uses 256 to 512 filters in different layers, with kernel sizes ranging from 33 to 87.
 
-## Methodology
+## Methodology 🧠
 
 1. **Data Preparation**: We used the Arabic speech dataset provided by the MTC-AIC2 organizers. The data is processed and converted into manifest files for training and validation.
 
@@ -48,7 +48,7 @@ The model uses 256 to 512 filters in different layers, with kernel sizes ranging
 
 4. **Evaluation**: We evaluated the model's performance using Word Error Rate (WER) on a validation set.
 
-## Technical Details
+## Technical Details 🔧
 
 ### Model Configuration
 
@@ -78,7 +78,7 @@ The model uses 256 to 512 filters in different layers, with kernel sizes ranging
 
 - **Data Augmentation**: SpecAugment
 
-## Results
+## Results 📊
 
 We trained the model for various numbers of epochs (20, 40, 60, 80, 100, 120) and plotted the results:
 
@@ -101,7 +101,7 @@ We trained the model for various numbers of epochs (20, 40, 60, 80, 100, 120) an
 <br><img src="https://github.com/HADAHENO/7asebatiya_7elwan/assets/93373983/19c565cf-8d46-4f19-bfa4-f73e8207df09" width="500" alt="120_epochs">
 
 
-## Reproducibility
+## Reproducibility 🔁
 
 To reproduce our results:
 
@@ -151,7 +151,7 @@ To reproduce our results:
 
 6. Adjust hyperparameters as needed for your specific use case.
 
-## Performance Assessment
+## Performance Assessment 🚀
 
 To assess the performance of the model:
 
