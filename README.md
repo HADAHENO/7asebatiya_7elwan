@@ -173,7 +173,7 @@ To reproduce our results:
                   fout.write('\n')
          ```
 
-5. Use the provided Python script from training_notebook.ipynb to train the model. Please make sure you have the necessary computational resources (GPU recommended).
+5. Use the provided Python script from [training_notebook.ipynb](./training_notebook.ipynb) to train the model. Please make sure you have the necessary computational resources (GPU recommended).
 
 6. Adjust hyperparameters as needed for your specific use case.
 
