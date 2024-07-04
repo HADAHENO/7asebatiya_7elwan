@@ -82,8 +82,23 @@ The model uses 256 to 512 filters in different layers, with kernel sizes ranging
 
 We trained the model for various numbers of epochs (20, 40, 60, 80, 100, 120) and plotted the results:
 
-20_epochs:
-<img src="https://github.com/HADAHENO/7asebatiya_7elwan/assets/93373983/c6f0e183-3cf3-4547-b45c-c32b014d190c" width="400" alt="20_epochs">
+**20_epochs:**
+<br><img src="https://github.com/HADAHENO/7asebatiya_7elwan/assets/93373983/c6f0e183-3cf3-4547-b45c-c32b014d190c" width="500" alt="20_epochs">
+
+**40_epochs:**
+<br><img src="https://github.com/HADAHENO/7asebatiya_7elwan/assets/93373983/cfd80ab7-22da-4a4c-b8e1-7a05f635f416" width="500" alt="40_epochs">
+
+**60_epochs:**
+<br><img src="https://github.com/HADAHENO/7asebatiya_7elwan/assets/93373983/8a8fd98e-c971-4176-a57b-2ddc0779d162" width="500" alt="60_epochs">
+
+**80_epochs:**
+<br><img src="https://github.com/HADAHENO/7asebatiya_7elwan/assets/93373983/a4fbca71-5ca4-4384-9393-eb347d882b76" width="500" alt="80_epochs">
+
+**100_epochs:**
+<br><img src="https://github.com/HADAHENO/7asebatiya_7elwan/assets/93373983/c153ef2a-a156-4cee-a79d-75a7c50225fa" width="500" alt="100_epochs">
+
+**120_epochs:**
+<br><img src="https://github.com/HADAHENO/7asebatiya_7elwan/assets/93373983/19c565cf-8d46-4f19-bfa4-f73e8207df09" width="500" alt="120_epochs">
 
 
 ## Reproducibility
@@ -96,7 +111,7 @@ pip install nemo_toolkit['asr'] Cython packaging
 
 2. Prepare your data and update the manifest file paths in the configuration.
 
-3. Use the provided Python script to train the model. Ensure you have the necessary computational resources (GPU recommended).
+3. Use the provided Python script to train the model. Please make sure you have the necessary computational resources (GPU recommended).
 
 4. Adjust hyperparameters as needed for your specific use case.
 
