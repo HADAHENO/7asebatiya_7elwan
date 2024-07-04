@@ -1,13 +1,13 @@
 # QuartzNet-based ASR System for Arabic Speech Recognition
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [System Architecture](#system-architecture)
-3. [Methodology](#methodology)
-4. [Technical Details](#technical-details)
-5. [Results](#results)
-6. [Reproducibility](#reproducibility)
-7. [Performance Assessment](#performance-assessment)
+1. [📘 Introduction](#introduction)
+2. [🏗️ System Architecture](#system-architecture)
+3. [🧠 Methodology](#methodology)
+4. [🔧 Technical Details](#technical-details)
+5. [📊 Results](#results)
+6. [🔁 Reproducibility](#reproducibility)
+7. [🚀 Performance Assessment](#performance-assessment)
 
 ## Introduction
 
