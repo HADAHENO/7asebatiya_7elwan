@@ -33,7 +33,7 @@ The model uses 256 to 512 filters in different layers, with kernel sizes ranging
 
 ## Methodology
 
-1. **Data Preparation**: We used a custom Arabic speech dataset. The data is processed and converted into manifest files for training and validation.
+1. **Data Preparation**: We used the Arabic speech dataset provided by the MTC-AIC2 organizers. The data is processed and converted into manifest files for training and validation.
 
 2. **Model Configuration**: We used the NeMo toolkit to configure and train the QuartzNet model. The configuration includes:
    - Audio preprocessing parameters
@@ -82,7 +82,9 @@ The model uses 256 to 512 filters in different layers, with kernel sizes ranging
 
 We trained the model for various numbers of epochs (20, 40, 60, 80, 100, 120) and plotted the results:
 
-[Insert graphs here showing the performance metrics (e.g., WER, loss) for different epoch counts]
+20_epochs:
+![20_epochs](https://github.com/HADAHENO/7asebatiya_7elwan/assets/93373983/c6f0e183-3cf3-4547-b45c-c32b014d190c)
+
 
 ## Reproducibility
 
