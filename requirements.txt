@@ -1,5 +1,12 @@
-apt-get update && apt-get install -y libsndfile1 ffmpeg
-pip -q install nemo_toolkit['asr'] Cython packaging
-
-pip install pandas
-pip install torch
+Cython
+packaging
+nemo_toolkit['asr'] Cython packaging
+pandas
+torch
+zipfile
+json
+pandas
+torch
+omegaconf
+pytorch-lightning
+matplotlib
